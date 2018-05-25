@@ -1,0 +1,79 @@
+.main{
+	top: 110px;
+	position: absolute;
+	width: 100%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.banner{
+	width: 1000px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin: 23px auto;
+	
+}
+.banner-anniu{
+	width: 130px;
+	height: 470px;
+	position: absolute;
+	
+	z-index: 5;
+	
+}
+.anniuxiaokuai{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	top: 50%;
+	margin-top: -25px;
+	cursor: pointer;
+	
+	
+
+}
+.banner-wrapper{
+	width: 1000px;
+	height: 475px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-wrapper-item{
+	width: 1000px;
+	height: 475px;
+	position: absolute;
+	/*float: left;*/
+	z-index: 0;
+}
+.banner-wrapper-item:nth-of-type(1){
+	z-index: 2;
+}
+.banner-wrapper-item .banner-active{
+	z-index: 2;
+}
+
+.banner-pagination{
+	width: 1000px;
+	height: 18px;
+	padding: 7px 0;
+	margin-top: 3px;
+	position: absolute;
+	/*background: yellow;*/
+	top: 475px;
+	text-align: center;
+}
+.banner-pagination span{
+	height: 4px;
+	width: 20px;
+	background: #e8e8e8;
+	display: inline-block;
+	margin:0 3px;
+	cursor: pointer;
+	
+}
+.banner-pagination span.banner-active{
+	background: red;
+}

@@ -1,0 +1,67 @@
+.main {
+  padding-top: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #495c81;
+  height: 560px; }
+  .main table {
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse; }
+    .main table tr {
+      align: center;
+      vertical-align: middle; }
+      .main table tr .input1 {
+        border: 0;
+        border-bottom: 1px solid #000;
+        font-size: 18px;
+        width: 265px;
+        height: 34px;
+        background: url("http://www.iliangcang.com/images/nlphone.png") no-repeat 0px 6px;
+        padding-left: 35px;
+        float: left; }
+      .main table tr #yanzhengma {
+        cursor: pointer;
+        font-size: 16px;
+        vertical-align: middle;
+        border: 1px solid #000;
+        height: 35px;
+        line-height: 34px;
+        width: 110px;
+        float: right;
+        text-align: center;
+        margin-left: 12px;
+        border-radius: 4px;
+        color: #333; }
+      .main table tr #isauto {
+        width: 13px;
+        height: 13px;
+        text-align: left;
+        position: relative;
+        top: 3px; }
+      .main table tr #zddl {
+        color: #000;
+        vertical-align: middle;
+        font-size: 12px;
+        line-height: 16px;
+        position: relative; }
+      .main table tr #loginBtn1 {
+        border-radius: 4px;
+        font-weight: normal;
+        cursor: pointer;
+        width: 300px;
+        height: 50px;
+        border: 0;
+        background: #25292e;
+        font-size: 18px;
+        margin-top: 9px;
+        margin-bottom: 30px;
+        color: white; }
+      .main table tr .gengduodenglufangshi {
+        color: #000;
+        font-size: 15px;
+        text-align: center;
+        display: block; }

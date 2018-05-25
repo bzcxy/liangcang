@@ -1,0 +1,151 @@
+.zhongbu{
+	width: 1000px;
+	height: 403px;
+	position: relative;
+	margin: 12px auto 0;
+	overflow: hidden;
+}
+.zhongbu .zhongbuitem1{
+	position: absolute;
+	width: 317px;
+	height: 190px;
+}
+.zhongbu .zhongbuitem2{
+	position: absolute;
+	width: 318px;
+	height: 403px;
+}
+/*下面开始人气良品CSS*/
+.rqlptitle{
+	width: 1000px;
+	height: 12px;
+	/*background: red;*/
+	margin: 36px auto 20px;
+	padding: 10px 0;
+	color: #333;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+.shoplist{
+	width: 1000px;
+	margin: 30px auto 10px;
+	height: auto;
+	position: relative;
+	display: block;
+}
+.shopitem{
+	width: 316px;
+	height: 366px;
+	margin: 0 0 30px 26px;
+	/*background: blueviolet;*/
+	float: left;
+}
+.shopitemfirst{
+	margin-left: 0;
+}
+.shopitem-imgCon{
+	width: 316px;
+	height: 316px;
+/*	background: greenyellow;*/
+}
+.shopitem-bar{
+	height: 40px;
+	width: 316px;
+	/*background: grey;*/
+	margin-top: 10px;
+}
+.shopitem-imgCon>a img{
+	display: block;
+	width: 316px;
+	height: 316px;
+	
+}
+.shopitem .ahover{
+	width: 286px;
+	height: 286px;
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.7;
+}
+.shopitem p{
+	width: 85%;
+	height: 25px;
+	line-height: 20px;
+	vertical-align: middle;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #FFFFFF;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+.shopitem .money{
+	color: #0c6eba;
+	font-size: 20px;
+	text-align: left;
+	margin: 4px 0 0;
+	font-style: italic;
+}
+.shopitem .tle{
+	margin-top: 80px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+.shopitem .desc{
+	font-weight: 100;
+	font-size: 12px;
+	margin-top: 5px;
+	height: auto;
+	color: #fff;
+	white-space: normal;
+	text-align: center;
+	
+}
+.shopitem-bar .who{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 216px;
+    overflow: hidden;
+    height: 40px;
+    float: left;
+}
+.shopitem-bar img{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	padding: 0 6px 6px 0;
+	background: url(../imgs/icon.png)no-repeat;
+	background-position: -130px -583px
+}
+.shopitem-bar .haoping{
+	float: right;
+	padding-right: 30px;
+	background: url(http://imgs-qn.iliangcang.com/images/default/heart_gray20_18.png) no-repeat right center;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	vertical-align: middle;
+	color: #878787;
+}
+.amore{
+	width: 149px;
+	height: 50px;
+	margin: 60px auto 0;
+	display: block;
+	background: url(../imgs/icon.png);
+	background-position: 0 -640px;
+}
+.amore>.ahover{
+	width: 100%;
+	height: 100%;
+	background: url(../imgs/icon.png);
+	background-position: 0 -687px;
+}

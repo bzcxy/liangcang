@@ -1,0 +1,12 @@
+.zhiding{
+	position: fixed;
+	right: 44px;
+    bottom: 44px;
+    cursor: pointer;
+    width: 59px;
+    height: 59px;
+    background: url(../imgs/icon.png);
+    background-position: -20px -813px;
+    display: none;
+ 
+}
