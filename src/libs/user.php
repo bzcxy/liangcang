@@ -52,7 +52,7 @@
 
     if($type == "loginBtn1" &&  $haspwd == TRUE){
         //用户名密码都对，登录成功
-        die($select_res);
+        die("1");
     }else if($type == "loginBtn1"){
         //登录失败
         die("0");
@@ -60,16 +60,16 @@
 
     if($type == "register" && $hasuser == TRUE){
         //用户名重名; => 2;
-        echo 2;
+        die("2");
     }else if($hasuser == FALSE){
         //注册成功成功;
         if($type == "register"){
             $result_register = $conn->query($sql_register);
         }
-        echo 1;
+        die("3");
     }
 
-    echo $hasuser;
+//  echo $hasuser;
 
     //返回结果判定是那种操作在执行;
     // echo $hasuser;

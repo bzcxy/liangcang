@@ -1,0 +1,72 @@
+.main{
+//  width: 1000px;
+    width: 100%;
+    min-width: 1000px;
+    position: absolute;
+    margin: 0 auto;
+    top: 110px;
+      .mainzhong{
+          width: 1000px;
+          margin: 0 auto;
+         .cainixihuan{
+             float: right;
+             width: 200px;
+             margin-right: 35px;
+             height: 1280px;
+             
+               .wenzi{
+                       margin-left: 30px;
+                       font-size: 14px;
+                       font-weight: bold;
+                       padding-bottom: 10px;
+                       color: black;
+               }
+               li{
+                   width: 100%;
+                  height: 320px;
+                    margin-left: 30px;
+//                  background: burlywood;
+                    img{
+                        width: 200px;
+                    }
+                    .p1{
+                            color: rgb(51,51,51);
+                            padding-top: 10px;
+                                font-size: 12px;
+                            line-height: 1.5;
+                    }
+                    .p2{
+                            margin-top: 7px;
+                       font-size: 12px;
+                       color: rgb(153,153,153);
+                    }
+                    .p3{
+                              margin-top: 7px;
+                          float: left;
+                       height: 24px;
+                         color: #3193F3;
+                        font-size: 14px;
+                    }
+               }
+         }  
+        .position{
+          font-size: 12px;
+          width: 1000px;
+          margin: 0 auto;
+          height: 20px;
+          line-height: 20px;
+          color: rgb(191, 191, 191);
+         font-weight: normal;
+         vertical-align: middle;
+         font-family: "Hiragino Sans GB", 冬青黑体, "Hiragino Kaku Gothic ProN", "Microsoft Yahei", Simsun, Arial, Helvetica, sans-serif;
+         padding: 10px 0px 5px;
+           a{
+               display: inline-blockblock;
+               color: #bfbfbf;;
+           }
+           .heise{
+               color: #666666;
+           }
+      }
+    }
+}

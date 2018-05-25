@@ -48,7 +48,7 @@
         font-size: 12px;
         line-height: 16px;
         position: relative; }
-      .main table tr #loginBtn1 {
+      .main table tr .dlzc {
         border-radius: 4px;
         font-weight: normal;
         cursor: pointer;

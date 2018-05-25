@@ -41,6 +41,11 @@
 						</td>
 					</tr>
 					<tr>
+						<td colspan="2" style="padding-top: 22px;">
+							<input type="submit" class="loginBtn dlzc" value="注册" id="register"/>
+						</td>
+					</tr>
+					<tr>
 						<td colspan="2">
 							<a class="gengduodenglufangshi" href="#">更多登录方式 ></a>
 						</td>
@@ -56,6 +61,14 @@
             //把登陆信息交给后台验证;
                  var username = $("#mobile").val();
                  var pwd = $("#code").val();
+             //开始正则；
+                 var reg=/^(\+86-)?1[358]\d{9}$/;
+                 if(!reg.test(username)){
+                 	alert("请输入正确手机号");
+                 	return;
+                 }
+                 
+                 
                  var opt = {
                  url:"http://localhost/liangcang/src/libs/user.php",
                  type:"POST",
@@ -63,7 +76,20 @@
               }
                $.ajax(opt)
                .then(function(res){
-                console.log(res);
+               	if(res==1){
+               		window.location.href="http://localhost/liangcang/dist/index.html"
+               	}else if(res==0){
+               		alert("账户密码错误");
+               		
+               	}else if(res==2){
+               		alert("该手机号已被注册");
+               	}else if (res==3){
+               		alert("注册成功，点击确定后跳转");
+               		var c=setTimeout(function(){
+               			window.location.href="http://localhost/liangcang/dist/index.html"
+               		},100)
+               	}
+//              
             })
         })
               })

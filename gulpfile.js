@@ -54,7 +54,8 @@ gulp.task('libs-copy',function(){
 gulp.task('watch',function(){
     gulp.watch('./src/*.html',['index-copy']);
     gulp.watch('./src/images/**/*',['images-copy']);
-    gulp.watch('./src/libs/*.php',['php-copy'])
+    gulp.watch('./src/libs/*.php',['php-copy']);
+    gulp.watch('./src/libs/**/*',['libs-copy']);
     gulp.watch(['./src/json/*.json','xml/*.xml','!json/secret.json'],['data']);
 })
 
@@ -64,7 +65,7 @@ gulp.task('server',function(){
         port:8888,
         livereload:true
     });
-
+//	console.log("port"+8888)
 })
 
 
